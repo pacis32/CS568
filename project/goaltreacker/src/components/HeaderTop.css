@@ -1,0 +1,10 @@
+.headerTop{
+  height: 100px;
+  background-color: rgb(13, 36, 100);
+  margin-bottom: 20px;
+  color: #cfcdcd;
+}
+.user .material-symbols-outlined {
+  font-size: 42px;
+  margin-right: 10px;
+}
