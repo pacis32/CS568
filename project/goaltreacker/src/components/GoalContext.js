@@ -16,7 +16,7 @@ const GoalContextProvider= (props)=>{
     const [searchInput, setSearchInput] = useState("")
 
 
-    function fetchGoals(){
+   function fetchGoals(){
       axios.get('/allgoals')
       .then((res)=> setGoals(res.data)).catch((e)=>console.log(e.message))
     }

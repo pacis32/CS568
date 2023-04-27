@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function HeaderTop(){
   const {user, dispatch} = useContext(Context);
-  const navigate = useNavigate()
+   const navigate = useNavigate()
 function logout(){
 
   dispatch({type:"LOGOUT"});
